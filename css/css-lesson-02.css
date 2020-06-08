@@ -3,8 +3,8 @@
 
 body {
 	background-color: #0E0E47;
-	color: #000;
-	font-size: 16px;
+	color: #360766;
+	font-size: 18px;
 	font-family: 'Roboto', sans-serif;
 	background: url('../images/disney-epcot.jpg');
 	background-size: cover;
@@ -30,7 +30,7 @@ img{
 	margin: 60px 0;
 }
 
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5, p{
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -41,33 +41,48 @@ p{
 }
 
 p.byline{
-	color: #0E0E47;
-	font-size: 14px;
+	text-align: center;
+	color: #360766;
+	font-size: 17px;
 }
 
 h1{
+	text-align: center;
 	font-family: 'Oleo Script', cursive;
 	font-weight: 700;
-	color: #0E0E47;
+	color: #731cb5;
 	margin-top: 0;
+	font-size: 60px
+
 }
 
 h2{
-	font-size: 19px;
-	color: #0E0E47;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	color: #360766;
 }
 
 h3{
-	font-size: 18px;
-	color: #0E0E47;
+	font-size: 20px;
+	color: #731cb5;
 }
 
 h4{
-	font-size: 18px;
-	color: #0E0E47;
+	font-size: 20px;
+	color: #731cb5;
 }
 
 h5{
-	font-size: 18px;
-	color: #0E0E47;
+	font-size: 20px;
+	color: #731cb5;
+}
+
+.article a{
+color: #7a30b2;
+}
+
+.article a:hover {
+	text-decoration: none;
 }

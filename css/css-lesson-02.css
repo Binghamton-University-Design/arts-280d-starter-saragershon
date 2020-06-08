@@ -50,7 +50,7 @@ h1{
 	text-align: center;
 	font-family: 'Oleo Script', cursive;
 	font-weight: 700;
-	color: #731cb5;
+	color: #6247aa;
 	margin-top: 0;
 	font-size: 60px
 
@@ -66,21 +66,21 @@ h2{
 
 h3{
 	font-size: 20px;
-	color: #731cb5;
+	color: #6247aa;
 }
 
 h4{
 	font-size: 20px;
-	color: #731cb5;
+	color: #6247aa;
 }
 
 h5{
 	font-size: 20px;
-	color: #731cb5;
+	color: #6247aa;
 }
 
 .article a{
-color: #7a30b2;
+color: #5603ad;
 }
 
 .article a:hover {

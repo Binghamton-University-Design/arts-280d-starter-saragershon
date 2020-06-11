@@ -14,9 +14,117 @@ body {
 
 .grid {
 	display: grid;
-	grid-template-columns: 10rem 10rem 10rem
+	grid-gap: 2rem;
+	/*grid-auto-flow: dense;*/
+	/*grid-template-columns: 1fr 1fr 1fr*/
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .grid div {
+	padding: 1rem;
 	background-color:rgba(0,0,0,0.1);
 }
+
+.item5 {
+	/*grid-column: span 3;*/
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+#grid1 {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-auto-rows: 100px;
+	grid-gap: 1rem;
+	width: 100%;
+}
+
+.block {
+	background-color: pink;
+}
+
+.wide1{
+	grid-row: 1 / 5;
+	grid-column: 1 / 2;
+}
+
+.wide2{
+	grid-row: 3 / 5;
+	grid-column: 2 / 6;
+}
+
+.tall1{
+	grid-row: 1 / 3;
+	grid-column: 4 / 6;
+}
+
+.tall2{
+	grid-row: 1 / 3;
+	grid-column: 2 / 4;
+}
+
+#grid2 {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-auto-rows: 100px;
+	grid-gap: 1rem;
+	width: 100%;
+}
+
+.block {
+	background-color: pink;
+}
+
+.wide3{
+	grid-row: 1 / 3;
+	grid-column: 1 / 4;
+}
+
+.wide4{
+	grid-row: 3 / 5;
+	grid-column: 3 / 6;
+}
+
+.tall3{
+	grid-row: 3 / 5;
+	grid-column: 1 / 3;
+}
+
+.tall4{
+	grid-row: 1 / 3;
+	grid-column: 4 / 6;
+}
+
+/*
+#grid2 {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-auto-rows: 100px;
+	grid-gap: 1rem;
+	width: 100%;
+{ 
+
+.block {
+	background-color: pink;
+}
+
+.blocksquare1 {
+	grid-row: 3 / 4;
+	grid-column: 1 / 2;
+}
+
+.blocksquare2 {
+	grid-row: 4 / 6;
+	grid-column: 1 / 3;
+}
+
+.blocksquare3 {
+	grid-row: 4 / 6;
+	grid-column: 3 / 5;
+}
+
+.blocksquare {
+	grid-row: ;
+	grid-column: ;
+}
+*/

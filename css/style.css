@@ -57,21 +57,21 @@ h4 {
 }
 
 #logo svg {
-	margin-right: .25rem;
+	margin-right: .5rem;
 	align-items: left;
-	height: 6.6rem;
-	width: 6.6rem;
+	height: 3.6rem;
+	width: 3.6rem;
 }
 
 #nav a { 
-color: #000; 
-font-weight: 300; 
-letter-spacing: 2px; 
-text-decoration-color: transparent; 
-display: inline-block; 
-width: 100%; 
-text-align: center; 
-transition: text-decoration-color .4s cubic-bezier(.694, .0482, .335, 1);
+  color: #000; 
+  font-weight: 300; 
+  letter-spacing: 2px; 
+  text-decoration-color: transparent; 
+  display: inline-block; 
+  width: 100%; 
+  text-align: center; 
+  transition: text-decoration-color .4s cubic-bezier(.694, .0482, .335, 1);
 }
 
 #nav a:hover { 

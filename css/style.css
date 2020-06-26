@@ -35,7 +35,6 @@ h2 {
 
 h3 {
 	font-size: 2.0rem;
-  text-align: center;
 }
 
 h4 {
@@ -275,9 +274,6 @@ h4 {
   margin-bottom: .25em;
 }
 
-.writing-item h2, h3, h4, p {
-  text-align: center;
-}
 
 .writing-item img{
   display: block;

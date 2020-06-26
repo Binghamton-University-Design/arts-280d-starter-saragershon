@@ -39,7 +39,7 @@ h3 {
 }
 
 h4 {
-	font-size: 2.0rem;
+	font-size: 1.5rem;
 }
 
 #wrapper {
@@ -209,7 +209,7 @@ h4 {
   letter-spacing: 1px;
 }
 
-#work h3 a, #writings h3 a, #portfolio h3 a {
+#work h3 a, #writings h3 a, #writings h2 a, #portfolio h3 a {
   color: var(--body-color);
   text-decoration: none;
 }
@@ -275,6 +275,10 @@ h4 {
   margin-bottom: .25em;
 }
 
+.writing-item h2, h3, h4, p {
+  text-align: center;
+}
+
 .writing-item img{
   display: block;
   width: 100%;
@@ -300,7 +304,7 @@ h4 {
   background-color: var(--body-color);
 }
 
-.writing-item h2 a {
+.writing-item h2 a, h3 a, h4 a {
   color: var(--body-color);
   text-decoration-color: transparent; 
   transition: text-decoration-color .3s ease-in-out;
